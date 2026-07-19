@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from local_store import query_index
+from db.local_store import query_index
 
 INDEX_PATH = Path("output/chroma_db/local_index.json")
 

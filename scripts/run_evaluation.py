@@ -10,7 +10,7 @@ from typing import Any
 os.environ.setdefault("LANGSMITH_TRACING", "false")
 os.environ.setdefault("LANGCHAIN_TRACING_V2", "false")
 
-from secured_graph import run_query
+from core.secured_graph import run_query
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 DATASET_PATH = PROJECT_ROOT / "test_dataset.json"

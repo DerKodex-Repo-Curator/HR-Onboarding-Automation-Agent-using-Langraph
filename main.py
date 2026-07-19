@@ -11,8 +11,8 @@ from fastapi.responses import StreamingResponse
 from langchain_core.messages import AIMessage, BaseMessage, HumanMessage
 from langgraph.checkpoint.sqlite.aio import AsyncSqliteSaver
 
-from schema import ChatRequest, ChatResponse
-from secured_graph import build_secured_graph
+from core.schema import ChatRequest, ChatResponse
+from core.secured_graph import build_secured_graph
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 CHECKPOINT_DB = Path(os.getenv("CHECKPOINT_DB_PATH", PROJECT_ROOT / "checkpoint_db.sqlite"))

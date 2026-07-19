@@ -13,7 +13,7 @@ from langgraph.graph import END, StateGraph
 from langgraph.graph.message import add_messages
 from typing_extensions import TypedDict
 
-from guardrails_config import classify_prompt, sanitize_output_text
+from core.guardrails_config import classify_prompt, sanitize_output_text
 from tools import LAB3_TOOLS
 
 PROJECT_ROOT = Path(__file__).resolve().parent

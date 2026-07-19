@@ -20,7 +20,7 @@ import sys
 from pathlib import Path
 from statistics import mean
 
-from secured_graph import run_query
+from core.secured_graph import run_query
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 

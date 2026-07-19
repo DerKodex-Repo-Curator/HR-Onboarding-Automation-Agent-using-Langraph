@@ -4,7 +4,7 @@ import json
 import math
 from pathlib import Path
 
-from simple_embeddings import embed_text
+from db.simple_embeddings import embed_text
 
 
 def cosine(a: list[float], b: list[float]) -> float:

@@ -38,7 +38,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from textwrap import fill, indent
 
-from database import DEFAULT_DB_PATH, init_db, set_error_category
+from db.database import DEFAULT_DB_PATH, init_db, set_error_category
 
 # ─── Configuration ─────────────────────────────────────────────────────────────
 JUDGE_MODEL: str = os.getenv("JUDGE_MODEL", "gpt-4o-mini")

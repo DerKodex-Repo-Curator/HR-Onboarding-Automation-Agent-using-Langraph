@@ -5,7 +5,7 @@ import json
 
 from langchain_core.messages import HumanMessage
 
-from approval_logic import build_hitl_graph
+from core.approval_logic import build_hitl_graph
 
 
 def _display(values: dict) -> dict:

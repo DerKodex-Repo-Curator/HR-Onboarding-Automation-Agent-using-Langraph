@@ -23,7 +23,7 @@ import requests
 import streamlit as st
 
 # Import our database helpers (database.py in the same directory)
-from database import (
+from db.database import (
     DEFAULT_DB_PATH,
     fetch_all_interactions,
     get_counts,

@@ -16,7 +16,7 @@ from __future__ import annotations
 import sqlite3
 from pathlib import Path
 
-from database import DEFAULT_DB_PATH, init_db
+from db.database import DEFAULT_DB_PATH, init_db
 
 # ─── Realistic sample interactions ────────────────────────────────────────────
 # Format: (user_input, agent_response, feedback_score, optional_comment)

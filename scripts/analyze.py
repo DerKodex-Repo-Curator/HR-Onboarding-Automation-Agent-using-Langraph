@@ -4,7 +4,7 @@ import sqlite3
 from collections import Counter
 from pathlib import Path
 
-from feedback_store import DEFAULT_FEEDBACK_DB, init_feedback_db
+from db.feedback_store import DEFAULT_FEEDBACK_DB, init_feedback_db
 
 
 def main() -> None:
